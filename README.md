@@ -6,19 +6,22 @@
 
 ## 下载安装
 
-前往 [**Releases** 页面](https://github.com/muleos/c001apk-ohos/releases) 下载最新版本 HAP 安装包。
+前往 [**Releases** 页面](https://github.com/muleos/c001apk-ohos-releases/releases) 下载最新版本 HAP 安装包。
 
-当前版本：**v1.3.5**（[直接下载](https://github.com/muleos/c001apk-ohos/releases/download/v1.3.5/c001apk-ohos-1.3.5-unsigned.hap)）
+当前版本：**v1.3.6**（[直接下载](https://github.com/muleos/c001apk-ohos-releases/releases/download/v1.3.6/c001apk-ohos-1.3.6-unsigned.hap)）
 
 > HAP 为未签名包，安装请使用 DevEco Studio 或相关签名工具签名后侧载。
 
-## 版本亮点（v1.3.5）
+## 版本亮点（v1.3.6）
 
-- 搜索结果 60 秒会话级缓存，重复搜索秒开
-- 已安装应用批量删除、双列表独立排序记忆
-- 文字图标 + 相册上传自定义图标（持久保留，可删除恢复）
-- 应用详情长按应用名复制包名
-- 跳转话题前弹窗确认
+- 搜索新增「游戏」分类（应用与话题之间），可搜索酷安游戏
+- 移除「数码」分类，五个类别胶囊平均分布一行
+- 已安装列表支持按系统安装时间排序（双击「已安装应用」胶囊切换）
+- 修复旧条目缺少安装时间导致排序无效的问题
+
+## 设备支持
+
+- 鸿蒙手机 / 平板（deviceTypes: phone, tablet）
 
 ## 免责声明
 
